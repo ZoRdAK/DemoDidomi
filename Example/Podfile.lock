@@ -1,0 +1,23 @@
+PODS:
+  - DemoDidomi (0.1.0):
+    - Didomi-XCFramework (= 1.31.1)
+  - Didomi-XCFramework (1.31.1)
+
+DEPENDENCIES:
+  - DemoDidomi (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Didomi-XCFramework
+
+EXTERNAL SOURCES:
+  DemoDidomi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DemoDidomi: aa7b8241b4a8e483825da782c284088a077d5ee5
+  Didomi-XCFramework: 5e4944abfcc3ffc44679c9bc77985595e25034d8
+
+PODFILE CHECKSUM: 46b70c87e3f342cc40a57954a28e4d7f94fe2630
+
+COCOAPODS: 1.9.3

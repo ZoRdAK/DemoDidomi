@@ -28,15 +28,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Karl Cosse/DemoDidomi.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.platform      = :ios, "11.0"
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '5.2'
 
   s.source_files = 'DemoDidomi/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'DemoDidomi' => ['DemoDidomi/Assets/*.png']
-  # }
+  s.dependency 'Didomi-XCFramework', '1.31.1'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
